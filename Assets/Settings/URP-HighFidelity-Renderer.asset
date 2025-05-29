@@ -53,7 +53,7 @@ MonoBehaviour:
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  - {fileID: 1833452528178238566}
+  - {fileID: 0}
   m_RendererFeatureMap: adc0de57c6d2eee566149b3e5cbb7119
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -127,11 +127,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _active: 1
   _shader: {fileID: 4800000, guid: 074eb04a5009453ea004483946e7c745, type: 3}
+  _material: {fileID: 0}
+  _isActive: 0
   _singleTape:
     enabled: 0
     value: 0
   _negative: 0
-  _glitch: {r: 1, g: 0, b: 0, a: 1}
+  _glitch:
+    r: 1
+    g: 0
+    b: 0
+    a: 1
   _frameRate: 20
   _tape: []
   _noise: []
@@ -353,3 +359,6 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 0e4925df876187041b8b40bc6db8744c, type: 3}
   - {fileID: 2800000, guid: 598e9ea56b01a594dba7ef692656cfe7, type: 3}
   - {fileID: 2800000, guid: 0c45937bd893fc84a8ceb515d0cda67c, type: 3}
+  _playTime: 4.5219574
+  _yScanline: 0.7390613
+  _xScanline: 0.87281156
