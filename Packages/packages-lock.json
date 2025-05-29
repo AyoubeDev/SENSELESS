@@ -392,13 +392,12 @@
       "url": "https://packages.unity.com"
     },
     "www.nulltale.vhsfx": {
-      "version": "https://github.com/NullTale/VhsFx.git",
+      "version": "file:../Assets/Resources/VhsFx-master/VhsFx-master",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.render-pipelines.universal": "14.0.6"
-      },
-      "hash": "2349c538676f6b86b7151f853cd0bbb8ea139a94"
+      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
